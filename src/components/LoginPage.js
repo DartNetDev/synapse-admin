@@ -81,7 +81,7 @@ const LoginPage = ({ theme }) => {
   var locale = useLocale();
   const setLocale = useSetLocale();
   const translate = useTranslate();
-  const base_url = localStorage.getItem("base_url");
+  const base_url = 'https://sg.fasttalk.io'
 
   const renderInput = ({
     meta: { touched, error } = {},
