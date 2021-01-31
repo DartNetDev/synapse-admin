@@ -221,7 +221,7 @@ const LoginPage = ({ theme }) => {
             fullWidth
           />
         </div>
-        <div className={classes.serverVersion}>{serverVersion}</div>
+        
       </div>
     );
   };
